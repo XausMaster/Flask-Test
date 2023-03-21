@@ -11,7 +11,7 @@ def index():
 
 @app.route('/about')
 def about():
-    return 'About'
+    return 'About '
 
 
 @app.route('/user/<string:name>/<int:id>')
